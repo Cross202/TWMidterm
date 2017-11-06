@@ -9,3 +9,31 @@ Version: 0.1.0
 */
 
 @import url("../twentysixteen/style.css");
+
+/*Removes footer information ie made by press and site title*/
+.site-info {
+    display: none;
+/*Reduces font size of title for pages/posts*/
+}
+.entry-title {
+    font-size: 1rem;
+/*Reduces the font size of the previous/next button*/
+}
+.post-navigation .post-title {
+    font-size: 1rem;
+}
+/*Removes meta data from posts*/
+.entry-footer {
+    display: none;
+}
+/*All 3 change the thickness of the horizontal lines on the page by half and change the color*/
+.widget {
+    border-top: 2px solid #d0d0d0;
+}
+.post-navigation {
+    border-top: 2px solid #d0d0d0;
+    border-bottom: 2px solid #d0d0d0;
+}
+.post-navigation div + div {
+    border-top: 2px solid #d0d0d0;
+}
