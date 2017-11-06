@@ -1,0 +1,11 @@
+/*
+Theme Name: Twenty Sixteen Child
+Theme URI: https://en-ca.wordpress.org/themes/twentysixteen/
+Description: Child theme of Twenty Sixteen
+Author: Tyler Webb
+Author URI:
+Template: twentysixteen
+Version: 0.1.0
+*/
+
+@import url("../twentysixteen/style.css");
